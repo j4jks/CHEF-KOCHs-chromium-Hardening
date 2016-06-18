@@ -5,7 +5,7 @@
 
 ## Performance
 * Chromium consumes a little bit more memory than Firefox, but starts up faster
-* Chromium tends to make better use of multicore systems, using separate processes for each tab. This feature is still in development on Firefox
+* Chromium tends to make better use of multi-core systems, using separate processes for each tab. This feature is still in development on Firefox
 * The browsers have competitive Javascript performance, but Firefox has better support for the newest javascript features
 
 ## Features
@@ -30,13 +30,13 @@
 ## Plug-ins
 * Chromium and Firefox are both trying to deprecate the old insecure and buggy NPAPI plugin system. Chromium uses its own PPAPI system for Flash
 * Firefox uses a secure Javascript-based library for reading PDFs
-* Firefox is developing a secure Javascript-based replacement for Flash called Shumway, but's dropped since Flash is known to be dying
+* Firefox is developing a secure Javascript-based replacement for Flash called Shumway, but it's dropped since Flash is known to be dying
 
 ## Data privacy with default settings
 * Firefox uses Yahoo as its default search engine in North America, and other search engines in other regions
-* Chromium uses Google as its default search engine
-* Firefox Sync can be hosted on your own server, and uses a zero-knowledge architecture. Chrome Sync only syncs to Google servers (encrypted).
-* Both support private sessions where there is no history saved (private modes)
+* Chromium uses 'Google' as its default search engine
+* Firefox Sync can be hosted on your own server, and uses a zero-knowledge architecture. Chrome Sync only syncs to Google servers but's encrypted.
+* Both support private sessions where there is no history saved (private/incognito modes)
 
 ## Data privacy after user configuration
 * Both Firefox's and Chromium's extensions may send private/usage data to somewhere (with prior warning)
@@ -48,6 +48,7 @@
 * Both can be configured to use TOR, but the TOR project recommends configuring Firefox or using the Firefox-based Tor browser
 * Firefox allows extensive control over which elements of the browser run and transmit data. These can be changed in the about:config page
 * Newer versions of Chromium require you download extensions from the Chrome web store or manually install from a local file
+* None browser is perfect this is due -> we still using outdated protocols and usability
 
 ## Other stuff
 * [Official System Hardening Guide](https://sites.google.com/a/chromium.org/dev/chromium-os/chromiumos-design-docs/system-hardening)
