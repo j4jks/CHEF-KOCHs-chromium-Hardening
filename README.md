@@ -1,3 +1,9 @@
+This project is rip, because there exist already an 'hardened' Chrome/Chromium version. See [here](https://github.com/Eloston/ungoogled-chromium).
+
+![Icon](https://raw.github.com/Fody/Obsolete/master/Icons/package_icon.png)
+
+
+
 #### Hardens Chromium and it's settings in the name of security
 
 
