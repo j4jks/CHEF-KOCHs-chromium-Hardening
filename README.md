@@ -61,3 +61,4 @@
 * [Chromium WPAD detection](https://sunweavers.net/blog/node/37)
 * [Baselines of Web Browsers](https://thesimplecomputer.info/baselines-web-browsers)
 * [Custom DNS names in Chromium](http://michaelkc.tumblr.com/post/98129633274/working-with-custom-dns-names-in-chromium)
+* [Ungoogled Chromium]https://github.com/Eloston/ungoogled-chromium
