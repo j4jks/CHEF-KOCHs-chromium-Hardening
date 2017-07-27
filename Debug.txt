@@ -1,0 +1,16 @@
+chrome://badcastcrash/
+chrome://inducebrowsercrashforrealz/
+chrome://crash/
+chrome://crashdump/
+chrome://kill/
+chrome://hang/
+chrome://shorthang/
+chrome://gpuclean/
+chrome://gpucrash/
+chrome://gpuhang/
+chrome://memory-exhaust/
+chrome://ppapiflashcrash/
+chrome://ppapiflashhang/
+chrome://quit/
+chrome://restart/
+chrome://net-internals/#dns
