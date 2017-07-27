@@ -1,0 +1,14 @@
+Adjust all settings and advanced settings in chrome://settings:
+=================================================================
+* Do not save passwords in the browser (Prefer a free and open-source password manager like KeePass)
+* Enable incognito (or private) mode (Ctrl+Shift+N shortcut • Use a #flag to start Chromium in this mode)
+* Disable all options in the "Privacy" section because most of them use an external Google service. Example: Google Safe Browsing about phishing and malware protection (chrome://settings → [Show advanced settings...] → Privacy)
+* Block third-party cookies and site data (chrome://settings/content → Cookies)
+* Ask first before allowing sites to run Flash (chrome://settings/content → Flash)
+* Ask when a site tries to track your physical location (chrome://settings/content → Location)
+* Disable WebRTC to prevent IP address leaks by editing the "Preferences" file
+* Prevent canvas fingerprinting (Use the --disable-reading-from-canvas #flag)
+
+
+Optional:
+* Do not log in with a Google account btw who says Mozilla sync is more secure?!

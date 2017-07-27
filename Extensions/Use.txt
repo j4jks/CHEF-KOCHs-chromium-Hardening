@@ -1,0 +1,12 @@
+* µBlock Origin + µBO-Extra (Block ads, scripts and popups • Alternatives: ScriptSafe, Adguard, Adblock Plus, AdBlock, NoScript)
+* µMatrix (Stop everyone from tracking you • Alternatives: Disconnect, Ghostery, Privacy Badger, Stealth Mode new, Blur, RequestPolicy)
+* Referer Control (Control the HTTP Referer on a per-site basis • Alternatives: Smart Referer, RefControl, Web Developer)
+* WebRTC Network Limiter removed → Does not work! (Prevent WebRTC IP leak • Alternatives: WebRTC Leak Prevent)
+* CanvasFingerprintBlock (Prevent browser fingerprinting • Alternatives: Chameleon, CanvasBlocker)
+* Local CDN (Local emulation of CDN • Alternatives: Decentraleyes)
+
+
+Optional:
+* Browsec (Browser VPN/proxy to unblock websites • Alternatives: Betternet, Hideman, Tunnello)
+* HTTPS Everywhere (Force to use secure connection [https://] of websites • Alternatives: Smart HTTPS, KB SSL Enforcer)
+* WOT (Web of Trust) fixed → Privacy issues (Display sites quality)
