@@ -1,3 +1,0 @@
-- Use no-sync builds
-- Enable or ensure sandboxing is running
-- 
