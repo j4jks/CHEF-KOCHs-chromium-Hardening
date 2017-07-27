@@ -62,3 +62,4 @@
 * [Baselines of Web Browsers](https://thesimplecomputer.info/baselines-web-browsers)
 * [Custom DNS names in Chromium](http://michaelkc.tumblr.com/post/98129633274/working-with-custom-dns-names-in-chromium)
 * [Compile Chrome on Windows](https://github.com/henrypp/chromium)
+* [POTARC](https://github.com/CHEF-KOCH/Online-Privacy-Test-Resource-List)
