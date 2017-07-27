@@ -30,7 +30,7 @@
 ## Plug-ins
 * Chromium and Firefox are both trying to deprecate the old insecure and buggy NPAPI plugin system. Chromium uses its own PPAPI system for Flash
 * Firefox uses a secure Javascript-based library for reading PDFs
-* Firefox is developing a secure Javascript-based replacement for Flash called Shumway, but it's dropped since Flash is known to be dying
+* ~~Firefox is developing a secure Javascript-based replacement for Flash called Shumway, but it's dropped since Flash is known to be dying~~
 
 ## Data privacy with default settings
 * Firefox uses Yahoo as its default search engine in North America, and other search engines in other regions
@@ -39,7 +39,7 @@
 * Both support private sessions where there is no history saved (private/incognito modes)
 
 ## Data privacy after user configuration
-* Both Firefox's and Chromium's extensions may send private/usage data to somewhere (with prior warning)
+* Both Firefox and Chromium extensions may send private/usage data to somewhere (with prior warning)
 * You can change the default search engines of both to services like DuckDuckGo
 * Users can easily disable features of Chromium that remotely use Google-services
 * You can selectively enable Chromium's extensions for private sessions
