@@ -22,7 +22,6 @@
 * Firefox allows traditional style menus, Chromium does not
 
 ## Extension coverage
-* There's Adblock and Flashblock for both but there exist ESR and no-addons builds for FF and Chromium
 * Ghostery lacks some blockage on Chromium
 * Chromium has a Downloadbar and limited support for Greasemonkey, Tapermonkey Userscripts by default
 * The Firefox extension API is far more powerful than Chromium's; every part of the browser can be customized
@@ -52,7 +51,7 @@
 
 ## Other stuff
 * [Official System Hardening Guide](https://sites.google.com/a/chromium.org/dev/chromium-os/chromiumos-design-docs/system-hardening)
-* [Official Chromium Security tracker](https://bugs.chromium.org/p/chromium/issues/list?q=Type%3DBug-Security) - I'm official supporter/commiter now :)
+* [Official Chromium Security tracker](https://bugs.chromium.org/p/chromium/issues/list?q=Type%3DBug-Security)
 * [Transitioning from SPDY to HTTP/2](https://blog.chromium.org/2016/02/transitioning-from-spdy-to-http2.html)
 * [Chrome Vs. Chromium](http://www.linuxinsider.com/story/79510.html)
 * [The Private Life of Chromium Browsers](https://thesimplecomputer.info/the-private-life-of-chromium-browsers)
