@@ -1,10 +1,12 @@
 #### Hardens Chromium and it's settings in the name of security
 
+The goal of this project is to provide information (and an extension maybe?) to setup Chromium for maximum security. 
+
 
 ### Chromium vs. Firefox
 
 ## Performance
-* Chromium consumes a little bit more memory than Firefox, but starts up faster
+* Chromium consumes a little bit more memory than Firefox, but starts up faster - Chromes kernel requires more ressources
 * Chromium tends to make better use of multi-core systems, using separate processes for each tab. This feature is still in development on Firefox
 * The browsers have competitive Javascript performance, but Firefox has better support for the newest javascript features
 
@@ -20,11 +22,15 @@
 * Both support syncing browser data and preferences between multiple installations, including on mobile
 * Firefox allows non-tabbed mode, Chromium does not
 * Firefox allows traditional style menus, Chromium does not
+* Chrome was the first browser which by default introduced adblocking without any extension ([Android Chrome version got it first](https://www.ghacks.net/2017/07/31/google-launches-adblocker-in-chrome-dev-and-canary-for-android/))
 
 ## Extension coverage
-* Ghostery lacks some blockage on Chromium
+* Some extensions like e.g. Ghostery lacks features compared to the Mozilla version
 * Chromium has a Downloadbar and limited support for Greasemonkey, Tapermonkey Userscripts by default
 * The Firefox extension API is far more powerful than Chromium's; every part of the browser can be customized
+* Mozilla adopted WebExtension API which technically can run Chrome/Firefox extensions but it's messy (atm)
+* Both extension/theme/plugin stores getting daily scans to avoid malware
+* WebKit/WebExtension seems the today's default
 
 ## Plug-ins
 * Chromium and Firefox are both trying to deprecate the old insecure and buggy NPAPI plugin system. Chromium uses its own PPAPI system for Flash
@@ -62,3 +68,4 @@
 * [Custom DNS names in Chromium](http://michaelkc.tumblr.com/post/98129633274/working-with-custom-dns-names-in-chromium)
 * [Compile Chrome on Windows](https://github.com/henrypp/chromium)
 * [POTARC](https://github.com/CHEF-KOCH/Online-Privacy-Test-Resource-List)
+* [NoScript whitelist](https://github.com/CHEF-KOCH/NoScript-Whitelist)
