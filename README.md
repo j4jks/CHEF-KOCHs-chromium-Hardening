@@ -69,3 +69,4 @@ The goal of this project is to provide information (and an extension maybe?) to 
 * [Compile Chrome on Windows](https://github.com/henrypp/chromium)
 * [POTARC](https://github.com/CHEF-KOCH/Online-Privacy-Test-Resource-List)
 * [NoScript whitelist](https://github.com/CHEF-KOCH/NoScript-Whitelist)
+* [Why isn't passive browser fingerprinting (including passive cookies) in Chrome's threat model?](https://dev.chromium.org/Home/chromium-security/security-faq#TOC-Why-isn-t-passive-browser-fingerprinting-including-passive-cookies-in-Chrome-s-threat-model-) *[ref](https://dev.chromium.org/Home/chromium-security/client-identification-mechanisms)
