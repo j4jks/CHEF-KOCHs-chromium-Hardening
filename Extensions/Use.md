@@ -7,7 +7,7 @@
 
 Optional:
 * [Browsec](https://browsec.com/) (Browser VPN/proxy to unblock websites • Alternatives: Betternet, Hideman, Tunnello)
-* [HTTPS Everywhere](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp?hl=en) (Force to use secure connection [https://] of websites • Alternatives: Smart HTTPS, KB SSL Enforcer)
+* [Smart HTTPS](https://chrome.google.com/webstore/detail/smart-https/dmgoegolinaceglokfijjabfplickbgn/related) (Force to use secure connection [https://] of websites • Alternatives: [KB SSL Enforcer](https://chrome.google.com/webstore/detail/kb-ssl-enforcer/flcpelgcagfhfoegekianiofphddckof))
 * [WOT (Web of Trust)](https://en.wikipedia.org/wiki/WOT_Services) → [Privacy issues](https://en.wikipedia.org/wiki/WOT_Services#Privacy_issues) (Display sites quality)
 
 
