@@ -9,7 +9,9 @@ Optional:
 * [Browsec](https://browsec.com/) (Browser VPN/proxy to unblock websites • Alternatives: Betternet, Hideman, Tunnello)
 * [Smart HTTPS](https://chrome.google.com/webstore/detail/smart-https/dmgoegolinaceglokfijjabfplickbgn/related) (Force to use secure connection [https://] of websites • Alternatives: [KB SSL Enforcer](https://chrome.google.com/webstore/detail/kb-ssl-enforcer/flcpelgcagfhfoegekianiofphddckof))
 * [WOT (Web of Trust)](https://en.wikipedia.org/wiki/WOT_Services) → [Privacy issues](https://en.wikipedia.org/wiki/WOT_Services#Privacy_issues) (Display sites quality)
+* [NoCoin](https://github.com/keraf/NoCoin)
+* [Tracking Token Stripper](https://chrome.google.com/webstore/detail/tracking-token-stripper/kcpnkledgcbobhkgimpbmejgockkplob/related)
 
 
-No recommend:
+Not recommend:
 * [Ghostery](https://chrome.google.com/webstore/detail/ghostery/mlomiejdfkolichcflejclcbmpeaniij?hl=en)
