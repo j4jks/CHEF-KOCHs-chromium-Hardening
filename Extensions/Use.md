@@ -3,6 +3,7 @@
 * [Referer Control](https://chrome.google.com/webstore/detail/referer-control/hnkcfpcejkafcihlgbojoidoihckciin/) (Control the HTTP Referer on a per-site basis • Alternatives: Smart Referer, RefControl, [Web Developer](https://en.wikipedia.org/wiki/Web_Developer_%28software%29))
 * [CanvasFingerprintBlock](https://chrome.google.com/webstore/detail/canvasfingerprintblock/ipmjngkmngdcdpmgmiebdmfbkcecdndc) (Prevent browser fingerprinting • Alternatives: [Chameleon](https://github.com/ghostwords/chameleon), CanvasBlocker)
 * [Local CDN](https://github.com/james-fray/local-cdn) (Local emulation of CDN • Alternatives: [Decentraleyes](https://github.com/Synzvato/decentraleyes))
+* [Chrome extension source viewer](https://chrome.google.com/webstore/detail/chrome-extension-source-v/jifpbeccnghkjeaalbbjmodiffmgedin)
 
 
 Optional:
