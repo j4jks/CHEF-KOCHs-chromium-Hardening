@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Chromium]
+"SitePerProcess"=dword:00000001
+"AutofillCreditCardEnabled"=dword:00000000
+"AutoFillEnabled"=dword:00000000
+"BackgroundModeEnabled"=dword:00000000
+"BookmarkBarEnabled"=dword:00000001
+"BrowserAddPersonEnabled"=dword:00000000
+"BrowserGuestModeEnabled"=dword:00000000
+"PasswordManagerEnabled"=dword:00000000
+;"UserDataDir"="C:\\Chromium\\Profile"
+"ShowHomeButton"=dword:00000001
+
+;[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Chromium\PluginsAllowedForUrls]
+;"1"="https://helpx.adobe.com/flash-player.html"
+;"2"="http://get.adobe.com/flashplayer/about/"
