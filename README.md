@@ -6,7 +6,7 @@ The goal of this project is to provide information (and an extension maybe?) to 
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/CHEF-KOCH)
 [![Discord](https://discordapp.com/api/guilds/204394292519632897/widget.png)](https://discord.me/NVinside)
 
-### Chromium vs. Firefox
+### Chromium vs. Mozilla Firefox
 
 ## Performance
 * Chromium consumes a little bit more memory than Firefox, but starts up faster - Chromes kernel requires more ressources
@@ -57,6 +57,15 @@ The goal of this project is to provide information (and an extension maybe?) to 
 * Firefox allows extensive control over which elements of the browser run and transmit data. These can be changed in the about:config page
 * Newer versions of Chromium require you download extensions from the Chrome web store or manually install from a local file
 * None browser is perfect this is due -> we still using outdated protocols and usability
+
+## Preferences file
+
+See this [documentation](https://chromium.googlesource.com/chromium/src/+/master/docs/user_data_dir.md) for more details regarding to the default profiles.
+
+Windows: C:\Users\<username>\AppData\Local\Google\Chrome\User Data\
+MacOS X: ~/Library/Application Support/Google/Chrome/
+Linux: ~/.config/google-chrome/
+
 
 ## Other stuff
 * [Official System Hardening Guide](https://sites.google.com/a/chromium.org/dev/chromium-os/chromiumos-design-docs/system-hardening)
