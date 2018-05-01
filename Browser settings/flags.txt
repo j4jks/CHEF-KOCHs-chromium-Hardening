@@ -1,0 +1,91 @@
+v68 (no single background connection [no sync build with] chrome://net-internals/#dns
+
+Enabled
+=======
+
+#enable-webrtc-new-encode-cpu-load-estimator
+#enable-history-entry-requires-user-gesture
+#smooth-scrolling
+#enable-quic
+#enable-future-v8-vm-features
+#enable-site-settings
+#secondary-ui-md
+#enable-password-generation
+#lcd-text-aa
+#show-saved-copy					Primary
+#enable-simple-cache-backend
+#enable-native-notifications
+#extension-content-verification		Bootstrap: get expected hashes, but do not enforce them
+#enable-message-center-new-style-notification
+#enable-policy-tool
+#reduced-referrer-granularity
+#enable-site-per-process 			(removed in v70+)
+#simplified-fullscreen-ui
+#enable-appcontainer
+#enable-md-bookmarks
+#enable-md-extensions
+#enable-brotli
+#automatic-tab-discarding
+#tls13-variant 						Draft 23 (will be draft 24 with v70+)
+#enable-webrtc-h264-with-openh264-ffmpeg
+#important-sites-in-cbd
+#new-audio-rendering-mixing-strategy
+#expensive-background-timer-throttling
+#enable-new-print-preview
+#enable-nup-printing
+#enable-autofill-credit-card-ablation-experiment
+#gdi-text-printing
+#enable-new-app-menu-icon
+#autoplay-policy					Doument user activation is required.
+#enable-picture-in-picture
+#sound-content-setting
+#enable-parallel-downloading
+#enable-new-preconnect				Enabled: No preconnect.
+#enable-block-tab-unders
+#clipboard-content-setting
+#enable-modern-media-controls
+#enable-av1-decoder
+#enable-mark-http-as				(will be removed in v70+) Mark HTTPS as actively dangerous.
+#unified-consent
+#enable-gpu-appcontainer
+#pdf-isolation
+
+
+Disabled
+=======
+
+#disable-hyperlink-auditing
+#show-autofill-type-predictions
+#device-discovery-notifications
+#enable-single-click-autofill
+#allow-previews
+#data-saver-server-previews
+#enable-client-lo-fi
+#enable-noscript-previews
+#enable-optimization-hints
+#enable-gamepad-extensions
+#simplified-fullscreen-ui
+#enable-push-api-background-mode
+#enable-autofill-credit-card-upload
+#safe-search-url-reporting
+#PasswordExport
+#PasswordImport
+#fill-on-account-select
+#enable-generic-sensor
+#enable-generic-sensor-extra-classes
+#enable-autofill-credit-card-last-used-date-display
+#enable-autofill-credit-card-upload-send-detected-values
+#new-usb-backend
+#enable-desktop-ios-promotions
+#voice-search-on-local-ntp
+
+
+
+
+
+
+
+
+
+
+
