@@ -2,19 +2,19 @@
 
 The goal of this project is to provide information (and an extension maybe?) to setup Chromium for maximum security. 
 
-[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40CHEF-KOCH)](https://twitter.com/FZeven)
+[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40CHEF-KOCH)](https://twitter.com/CKsTechNews)
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/CHEF-KOCH)
-[![Discord](https://discordapp.com/api/guilds/204394292519632897/widget.png)](https://discord.me/NVinside)
+[![Discord](https://discordapp.com/api/guilds/418256415874875402/widget.png)](https://discord.me/CHEF-KOCH)
 
 ### Chromium vs. Mozilla Firefox Quantum (**needs to be updated!**)
 
 ## Performance
 
-| Feature        | Chrome           | Firefox Quantum  |
-| ------------- |:-------------:| -----:|
-| Startup Memory | Chromium consumes a little bit more memory than Firefox, but starts up faster - Chromes kernel requires more resources | Firefox loads less fast and on the initial startup it consumes for a short amount of time lots of RAM | 
-| Multi-core system integration   | Chrome ones is older and more reliable because it's more tested  |  Firefox isolation feature is (by default) limited |
-| Javascript performance | //      |    // |
+| Feature        | Chrome           | Firefox Quantum  | Description | 
+| ------------- |:-------------:| :-------------:| -------:|
+| Startup Memory | Chromium consumes a little bit more memory than Firefox, but starts up faster - Chromes kernel requires more resources | Firefox loads less fast and on the initial startup it consumes for a short amount of time lots of RAM |  // |
+| Multi-core system integration   | Chrome ones is older and more reliable because it's longer tested  |  Firefox isolation feature is (by default) limited | Both perform equal, depending on the used API |
+| Javascript performance | //      |    // | Equal? (depending) |
 
 
 ## Features
