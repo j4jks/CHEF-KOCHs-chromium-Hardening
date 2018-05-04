@@ -6,7 +6,7 @@ The goal of this project is to provide information (and an extension maybe?) to 
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/CHEF-KOCH)
 [![Discord](https://discordapp.com/api/guilds/204394292519632897/widget.png)](https://discord.me/NVinside)
 
-### Chromium vs. Mozilla Firefox
+### Chromium vs. Mozilla Firefox (needs to be updated!)
 
 ## Performance
 * Chromium consumes a little bit more memory than Firefox, but starts up faster - Chromes kernel requires more ressources
@@ -68,6 +68,7 @@ Linux: ~/.config/google-chrome/
 
 
 ## Other stuff
+* [Chrome might remove the enable_webrtc=false flag](https://bugs.chromium.org/p/chromium/issues/detail?id=800653)
 * [Official System Hardening Guide](https://sites.google.com/a/chromium.org/dev/chromium-os/chromiumos-design-docs/system-hardening)
 * [Official Chromium Security tracker](https://bugs.chromium.org/p/chromium/issues/list?q=Type%3DBug-Security)
 * [Transitioning from SPDY to HTTP/2](https://blog.chromium.org/2016/02/transitioning-from-spdy-to-http2.html)
@@ -83,3 +84,4 @@ Linux: ~/.config/google-chrome/
 * [NoScript whitelist](https://github.com/CHEF-KOCH/NoScript-Whitelist)
 * [Why isn't passive browser fingerprinting (including passive cookies) in Chrome's threat model?](https://dev.chromium.org/Home/chromium-security/security-faq#TOC-Why-isn-t-passive-browser-fingerprinting-including-passive-cookies-in-Chrome-s-threat-model-) *[ref](https://dev.chromium.org/Home/chromium-security/client-identification-mechanisms)
 * [Browser Sec Whitepaper](https://github.com/cure53/browser-sec-whitepaper)
+* [Chromium Updater Script by mkorthof](https://github.com/mkorthof/chrupd)
