@@ -6,12 +6,16 @@ The goal of this project is to provide information (and an extension maybe?) to 
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/CHEF-KOCH)
 [![Discord](https://discordapp.com/api/guilds/204394292519632897/widget.png)](https://discord.me/NVinside)
 
-### Chromium vs. Mozilla Firefox (needs to be updated!)
+### Chromium vs. Mozilla Firefox Quantum (**needs to be updated!**)
 
 ## Performance
-* Chromium consumes a little bit more memory than Firefox, but starts up faster - Chromes kernel requires more ressources
-* Chromium tends to make better use of multi-core systems, using separate processes for each tab. This feature is still in development on Firefox
-* The browsers have competitive Javascript performance, but Firefox has better support for the newest javascript features
+
+| Feature        | Chrome           | Firefox Quantum  |
+| ------------- |:-------------:| -----:|
+| Startup Memory | Chromium consumes a little bit more memory than Firefox, but starts up faster - Chromes kernel requires more resources | Firefox loads less fast and on the initial startup it consumes for a short amount of time lots of RAM | 
+| Multi-core system integration   | Chrome ones is older and more reliable because it's more tested  |  Firefox isolation feature is (by default) limited |
+| Javascript performance | //      |    // |
+
 
 ## Features
 * Chromium generally supports the latest HTML features sooner
