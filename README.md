@@ -58,6 +58,7 @@ The goal of this project is to provide information (and an extension maybe?) to 
 * Newer versions of Chromium require you download extensions from the Chrome web store or manually install from a local file
 * None browser is perfect this is due -> we still using outdated protocols and usability
 
+
 ## Preferences file
 
 See this [documentation](https://chromium.googlesource.com/chromium/src/+/master/docs/user_data_dir.md) for more details regarding to the default profiles.
@@ -67,7 +68,21 @@ MacOS X: ~/Library/Application Support/Google/Chrome/
 Linux: ~/.config/google-chrome/
 
 
-## Other stuff
+## Media Engagement Index (MEI) (Chrome 66+)
+
+The MEI is determined by a ratio of visits to significant media playback events per origin, determined by these four factors:
+
+* Consumption of the media (audio/video) must be greater than 7 seconds.
+* Audio must be present and unmuted.
+* Tab with video is active.
+* Size of the video (in px) must be greater than 200×140.
+
+## Chrome's Ads blocker
+
+[Google](https://blog.chromium.org/2018/02/how-chromes-ad-filtering-works.html) is evaluating sites based on the [Better Ads standards](https://www.betterads.org/standards) and then rating them as a pass, warning, or failing. Site owners can access these evaluations using an API, and sites can be re-reviewed after bad ads have been addressed.
+
+
+## Acknowledgements and References
 * [Chrome might remove the enable_webrtc=false flag](https://bugs.chromium.org/p/chromium/issues/detail?id=800653)
 * [Official System Hardening Guide](https://sites.google.com/a/chromium.org/dev/chromium-os/chromiumos-design-docs/system-hardening)
 * [Official Chromium Security tracker](https://bugs.chromium.org/p/chromium/issues/list?q=Type%3DBug-Security)
