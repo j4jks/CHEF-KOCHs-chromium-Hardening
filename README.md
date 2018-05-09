@@ -87,7 +87,7 @@ The MEI is determined by a ratio of visits to significant media playback events 
 
 
 ## Acknowledgements and References
-* [Chrome might remove the enable_webrtc=false flag](https://bugs.chromium.org/p/chromium/issues/detail?id=800653)
+* [Chrome removed the enable_webrtc=false flag (which means no more No-WebRTC builds)](https://chromium.googlesource.com/chromium/src/+/d98b020fe1f0cb85de21de5313261a66ad9c9fe4)
 * [Official System Hardening Guide](https://sites.google.com/a/chromium.org/dev/chromium-os/chromiumos-design-docs/system-hardening)
 * [Official Chromium Security tracker](https://bugs.chromium.org/p/chromium/issues/list?q=Type%3DBug-Security)
 * [Transitioning from SPDY to HTTP/2](https://blog.chromium.org/2016/02/transitioning-from-spdy-to-http2.html)
