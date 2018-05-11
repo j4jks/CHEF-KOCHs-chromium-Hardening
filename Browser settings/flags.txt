@@ -49,6 +49,7 @@ Enabled
 #unified-consent
 #enable-gpu-appcontainer
 #pdf-isolation
+#ntp-ui-md
 
 
 Disabled

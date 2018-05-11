@@ -49,6 +49,7 @@ The goal of this project is to provide information (and an extension maybe?) to 
 * Chromium uses 'Google' as its default search engine
 * Firefox Sync can be hosted on your own server, and uses a zero-knowledge architecture. Chrome Sync only syncs to Google servers but's encrypted.
 * Both support private sessions where there is no history saved (private/incognito modes)
+* Chromium natively supports WebRTC, just like Edge and Firefox do as well. WebRTC basically can return your IP info if queried, but your browser's usual HTTP headers return IP info and a wealth of other metadata anyway. The potential privacy concern is WebRTC providing IP info if located behind e.g. a VPN or anonymous proxy, so if either apply, block the WebRTC query (among other things) with an extension. If neither apply, then it is pretty much no point of talking about security (no matter which browser).
 
 ## Data privacy after user configuration
 * Both Firefox and Chromium extensions may send private/usage data to somewhere (with prior warning)
