@@ -50,6 +50,7 @@ Enabled
 #enable-gpu-appcontainer
 #pdf-isolation
 #ntp-ui-md
+#stop-in-background
 
 
 Disabled
