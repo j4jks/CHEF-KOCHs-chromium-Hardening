@@ -63,6 +63,9 @@ chrome://translate-internals
 chrome://usb-internals
 chrome://user-actions
 chrome://version
-chrome://view-http-cache
 chrome://webrtc-internals
 chrome://webrtc-logs
+
+
+Removed
+chrome://view-http-cache ([since v66](https://chromium.googlesource.com/chromium/src.git/+/6ebc11f6f6d112e4cca5251d4c0203e18cd79adc))

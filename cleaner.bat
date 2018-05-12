@@ -1,0 +1,6 @@
+rd/s/q "Cache"
+rd/s/q "GPUCache"
+rd/s/q "JumpListIcons"
+rd/s/q "JumpListIconsOld"
+rd/s/q "Media Cache"
+rd/s/q "Pepper Data"
