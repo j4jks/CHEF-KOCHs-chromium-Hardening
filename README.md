@@ -105,3 +105,4 @@ The MEI is determined by a ratio of visits to significant media playback events 
 * [Why isn't passive browser fingerprinting (including passive cookies) in Chrome's threat model?](https://dev.chromium.org/Home/chromium-security/security-faq#TOC-Why-isn-t-passive-browser-fingerprinting-including-passive-cookies-in-Chrome-s-threat-model-) *[ref](https://dev.chromium.org/Home/chromium-security/client-identification-mechanisms)
 * [Browser Sec Whitepaper](https://github.com/cure53/browser-sec-whitepaper)
 * [Chromium Updater Script by mkorthof](https://github.com/mkorthof/chrupd)
+* [Cent Browser](https://www.centbrowser.com/)
