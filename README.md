@@ -14,7 +14,31 @@ The goal of this project is to provide information (and an extension maybe?) to 
 | ------------- |:-------------:| :-------------:| -------:|
 | Startup Memory | Chromium consumes a little bit more memory than Firefox, but starts up faster - Chromes kernel requires more resources | Firefox loads less fast and on the initial startup it consumes for a short amount of time lots of RAM |  // |
 | Multi-core system integration   | Chrome ones is older and more reliable because it's longer tested  |  Firefox isolation feature is (by default) limited | Both perform equal, depending on the used API |
-| Javascript performance | //      |    // | Equal? (depending) |
+| JavaScript performance | //  |  // | Equal? (depending) |
+
+
+## Privacy Scandals
+
+Firefox
+========
+
+* [Firefox Users Cry Foul Over 'Mr. Robot' Ad Installed As Research Program](http://fortune.com/2017/12/17/firefox-mr-robot-looking-glass/) [2017]
+* [Firefox Shield Studies](https://wiki.mozilla.org/Firefox/Shield/Shield_Studies) - these studies are separate from the normal telemetry
+* [Cliqz](https://gist.github.com/solso/423a1104a9e3c1e3b8d7c9ca14e885e5) acquired by Mozilla 
+* [Firefox tracks users with Google Analytics in the add-on settings](https://github.com/mozilla/addons-frontend/issues/2785) [2017]
+* Most concerns can be destroyed using about:config.
+
+
+Isn't it funny that [Firefox Wikipedia page](https://gist.github.com/solso/423a1104a9e3c1e3b8d7c9ca14e885e5) has not any section related to Mr. Robot and safebrowsing privacy concerns while Chrome has this mentioned?! Remember Firefox (by default) has also in fact more studies and telemetry integrated in his browser! They even call telemetry in the article as [security](https://en.wikipedia.org/wiki/Firefox#Security) feature. Is this objective written - _I very much doubt it._  
+
+
+Chrome
+========
+
+* ZERO no additional studies or additional telemetry. The stuff which is send back is exactly the same like Mozilla does. Safebrowsing, Malware (Phishing filter updates etc).
+* Google sells (officially) only ads. 
+* Most concerns can be destroyed using about:flags.
+
 
 
 ## Features
