@@ -86,8 +86,34 @@ The MEI is determined by a ratio of visits to significant media playback events 
 
 [Google](https://blog.chromium.org/2018/02/how-chromes-ad-filtering-works.html) is evaluating sites based on the [Better Ads standards](https://www.betterads.org/standards) and then rating them as a pass, warning, or failing. Site owners can access these evaluations using an API, and sites can be re-reviewed after bad ads have been addressed.
 
+## Privacy Concerns
 
-## Acknowledgements and References
+<p align="center"> 
+<img src="https://raw.githubusercontent.com/CHEF-KOCH/Chromium-hardening/master/Wikipedia/Privacy%20concerns.png">
+</p>
+
+The official Wikipedia privacy concerns (User tracking concerns) is outdated.
+
+
+| Privacy concern        | Explanation           | 
+| ------------- |:-------------:| 
+Chrome sends details about its users and their activities to Google through both optional and non-optional user tracking mechanisms. | Google already explained this right from the beginning since 2008 with a [Blog post](https://blog.chromium.org/2008/10/google-chrome-chromium-and-google.html). The privacy settings can also be manually controlled as explained over [here](https://support.google.com/chrome/answer/114836?visit_id=0-636611054822963698-3982001039&rd=1). This is in the meantime an common technique in all current Browser starting from Firefox over Opera and even Edge has some kind of safebrowsing mechanism, safebrowsing itself doesn't contain any personal information which can expose you or your browser habits. The only critical thing someone can find here is that these data are stored locally into your Browser Data folder. |
+Every URL you even begin to type in the address bar is sent to Google, in whole or in fragments, for auto-completion purposes. | It's called Omnisearch and can be disabled since many years in Chrome via about:flags. [Google explained how you disable it](https://productforums.google.com/forum/#!topic/chrome/PLaFaRnd1Hw). The Google URL Search prediction (or link prefetching) can be disabled, after that and clearing the Browser Cache it will only show results based on your **Offline** Browser History.  |
+Connects to Google every 30 minutes to download a list of malicious URLs, so the fact that you even have Chrome open is transmitted to Google. |  This is a protection mechanism in order to protect you from malware. You can disable it in the options since many years. |
+Asks you to login to your Google account, so your browsing tabs, history, etc. is stored on Google servers. | Login is optional since forever and always will be. Every Browser nowadays have a login function. | 
+Connects to websites in the background before you are even finished typing them in, without your explicit instruction. | This is a prefetch option to predict stuff to load content more quickly. This doesn't expose you and is not relevant to any privacy aspect. If you don't like it disable it via about:flags. | 
+Contains an RLZ identifier, an encoded string sent together with all queries to Google. | RLZ source code was released exactly one week after it got integrated. RLZ will never be send when you install Chrome from official sources. It's however true that on Android it's more problematically but you can use a Chromium based Browser (fork) which doesn't include the RLZ source code. | 
+[clientID](http://blogoscoped.com/archive/2008-09-09-n68.html) | The clientID (unique one) was removed already since Aug. 2009 due privacy concerns but no one ever add any proof that this exposes you or fingerprint/track you. |
+Page not found | This is not even a tracking method, it's a 404 which are displayed in order to inform the user that the URL/Domain is not reachable. You however can change this behavior with a cached version since Chrome 55. | 
+Google Update | This is also not a privacy concern, every Browser has an integrated update mechanism. Using the latest versions which contains security bugfixes is important and the opposite of an privacy concern. Since Android P Google even started to force OEMs to push more frequently security updates for normal users which should help to get less vulnerable. | 
+Other features like Do not Track & Co. | Can all be controlled (disabled/enabled) within settings. | 
+
+** Conclusion**
+
+Chrome is not more or less tracking anyone then all other Browsers on the market, every other Browser in fact imitates Google and their features. It's unclear if there better at all since Google provides (maybe ?) a more secure server than other providers, at least I never heard of any Google data breach or hack which affects millions of users. 
+
+
+## Acknowledgments and References
 * [Chrome removed the enable_webrtc=false flag (which means no more No-WebRTC builds)](https://chromium.googlesource.com/chromium/src/+/d98b020fe1f0cb85de21de5313261a66ad9c9fe4)
 * [Official System Hardening Guide](https://sites.google.com/a/chromium.org/dev/chromium-os/chromiumos-design-docs/system-hardening)
 * [Official Chromium Security tracker](https://bugs.chromium.org/p/chromium/issues/list?q=Type%3DBug-Security)
