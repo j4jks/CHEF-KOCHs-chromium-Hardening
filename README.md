@@ -27,6 +27,7 @@ Firefox
 * [Cliqz](https://gist.github.com/solso/423a1104a9e3c1e3b8d7c9ca14e885e5) acquired by Mozilla 
 * [Firefox tracks users with Google Analytics in the add-on settings](https://github.com/mozilla/addons-frontend/issues/2785) [2017]
 * Most concerns can be destroyed using about:config.
+* Firefox has forks in order to (by default) opt-out (without any need of altering about:config). E.g. Waterfox.
 
 
 Isn't it funny that [Firefox Wikipedia page](https://gist.github.com/solso/423a1104a9e3c1e3b8d7c9ca14e885e5) has not any section related to Mr. Robot and safebrowsing privacy concerns while Chrome has this mentioned?! Remember Firefox (by default) has also in fact more studies and telemetry integrated in his browser! They even call telemetry in the article as [security](https://en.wikipedia.org/wiki/Firefox#Security) feature. Is this objective written - _I very much doubt it._  
@@ -38,7 +39,7 @@ Chrome
 * ZERO no additional studies or additional telemetry. The stuff which is send back is exactly the same like Mozilla does. Safebrowsing, Malware (Phishing filter updates etc).
 * Google sells (officially) only ads. 
 * Most concerns can be destroyed using about:flags.
-
+* Chrome has forks (Chromium) in order to (by default) opt-out (without any need of altering about:flags). E.g. Cent Browser.
 
 
 ## Features
