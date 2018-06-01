@@ -4,7 +4,7 @@
 * [CanvasFingerprintBlock](https://chrome.google.com/webstore/detail/canvasfingerprintblock/ipmjngkmngdcdpmgmiebdmfbkcecdndc) (Prevent browser fingerprinting • Alternatives: [Chameleon](https://github.com/ghostwords/chameleon), CanvasBlocker)
 * [Local CDN](https://github.com/james-fray/local-cdn) (Local emulation of CDN • Alternatives: [Decentraleyes](https://github.com/Synzvato/decentraleyes))
 * [Chrome extension source viewer](https://chrome.google.com/webstore/detail/chrome-extension-source-v/jifpbeccnghkjeaalbbjmodiffmgedin)
-* [WebAPI Manager](https://github.com/snyderp/web-api-manager)
+* [WebAPI Manager](https://github.com/snyderp/web-api-manager) or [Trace](https://absolutedouble.co.uk/trace/)
 
 
 

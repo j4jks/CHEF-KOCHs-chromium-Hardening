@@ -6,7 +6,18 @@ The goal of this project is to provide information (and an extension maybe?) to 
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/CHEF-KOCH)
 [![Discord](https://discordapp.com/api/guilds/418256415874875402/widget.png)](https://discord.me/CHEF-KOCH)
 
-### Chromium vs. Mozilla Firefox Quantum (**needs to be updated!**)
+### Chromium vs. Mozilla Firefox Quantum (**still needs to be updated!**)
+
+
+## Differences between Chrome and Chromium
+
+Chromium was not made by Google, it's a web browser 'developed' (based on parts of the original source code from Chrome) by volunteers and released under FLOSS. There exist bunch of alternative forks of it with additional features in it.
+
+Most core developers are Google employees, you can easily see this in their bug reports (eMail/name) etc, that they work for the Chromium project as 'volunteers' and release the source code but in reality they work for the mother Google, that said not all of them.
+
+A fork means that Google takes the original source code of Chromium and they adding some bits of code and tools (like for example Flash Player (now removed), RLZ etc) Google Chrome itself is either open-source nor proprietary, it's freeware under [Google Chrome's Terms of Service](https://www.google.com/intl/en/chrome/browser/privacy/eula_text.html). Googles Privacy policy can be reviewed [here](https://policies.google.com/privacy?hl=en).
+
+
 
 ## Performance
 
@@ -113,11 +124,17 @@ The MEI is determined by a ratio of visits to significant media playback events 
 
 ## Privacy Concerns
 
+I'll explain in short the privacy concerns and if it's true or already outdated or already fixed. 
+
 <p align="center"> 
 <img src="https://raw.githubusercontent.com/CHEF-KOCH/Chromium-hardening/master/Wikipedia/Privacy%20concerns.png">
 </p>
 
 The official Wikipedia privacy concerns (User tracking concerns) is outdated.
+
+<p align="center"> 
+<img src="https://raw.githubusercontent.com/CHEF-KOCH/Chromium-hardening/master/Wikipedia/Botnet.png">
+</p>
 
 
 | Privacy concern        | Explanation           | 
@@ -133,9 +150,41 @@ Page not found | This is not even a tracking method, it's a 404 which are displa
 Google Update | This is also not a privacy concern, every Browser has an integrated update mechanism. Using the latest versions which contains security bugfixes is important and the opposite of an privacy concern. Since Android P Google even started to force OEMs to push more frequently security updates for normal users which should help to get less vulnerable. | 
 Other features like Do not Track & Co. | Can all be controlled (disabled/enabled) within settings. | 
 
+
+Privacy related issue tickets can be found [here](https://bugs.chromium.org/p/chromium/issues/list?q=component:Privacy).
+
+
+**About Ungoogled-Chromium**
+
+
+[Ungoogled-Chromium](https://github.com/Eloston/ungoogled-chromium) project has major weaknesses too so before you recommend this browser as _alternative_ think about the following: 
+
+
+```bash
+Update as of September 2016: 
+I, Eloston, am in a period of time where I do not have as much time as I had before to work on this project...
+
+
+~~~
+
+Update 9/29: 
+
+Our favorite infosec expert (whom we’ve cited before on a few matters) SwiftOnSecurity, let us know today that Ungoogled Chromium is a student project and doesn’t have the ability to update itself (and likely hasn’t been updated.) In that regard, we can’t recommend it...
+
+```
+
+In other words it has [no auto-updater mechanism integrated](https://lifehacker.com/ungoogled-chromium-strips-away-the-privacy-invading-fea-1787139870), this is for advance users no problem they can use some tools/scripts or manually download and install it but the normal user will never do this. However, in the meantime some things has changed, it more often gets updates now which is a good sign but this is no guarantee for code quality which applies to every Browser or Fork. The release page by itself mostly only provides the source code until the project manager decide to release a new version which is then always behind other forks because it needs to be reviewed over a long(er) time period.  
+
+
+Using scripts and updater tools can be dangerous when they suddenly starting to download official Google builds, as shown [here](https://github.com/Eloston/ungoogled-chromium/issues/415) which the user is only aware of after everything happened. and Windows Users now need such an updater/downloader in order to get the binaries, read [here](https://github.com/henrypp/chrlauncher/issues/33#issuecomment-279736691) basically this means you must trust someone else because most users will blindly install it and not compile it themselves.I see this critical.
+
+
 ** Conclusion**
 
-Chrome is not more or less tracking anyone then all other Browsers on the market, every other Browser in fact imitates Google and their features. It's unclear if there better at all since Google provides (maybe ?) a more secure server than other providers, at least I never heard of any Google data breach or hack which affects millions of users. 
+Chrome is not more or less tracking anyone then all other Browsers on the market. Other Browser in fact imitates Google and their features such as [Chromecast](https://en.wikipedia.org/wiki/Chromecast) detection which is often misleading called as _background spying_ because it sends every 2 minutes requests in order to check if the service is available or not among other features such as [Captive portal](https://en.wikipedia.org/wiki/Captive_portal) checks. 
+
+Forks mostly only removing these functions which is not the best way, preventing or giving people a opt-out for certain things is the better method, you can read about how you do this (with examples) [here].
+
 
 
 ## Acknowledgments and References
@@ -157,3 +206,8 @@ Chrome is not more or less tracking anyone then all other Browsers on the market
 * [Browser Sec Whitepaper](https://github.com/cure53/browser-sec-whitepaper)
 * [Chromium Updater Script by mkorthof](https://github.com/mkorthof/chrupd)
 * [Cent Browser](https://www.centbrowser.com/)
+* [Privacy disrespected (by default)](https://bugs.chromium.org/p/chromium/issues/detail?id=795526)
+* [https://bugs.chromium.org/p/chromium/issues/detail?id=795526](https://bugs.chromium.org/p/chromium/issues/detail?id=661792)
+* [DNS caches can be used as cross-domain persistent cookies](https://bugs.chromium.org/p/chromium/issues/detail?id=546733)
+* [Chrome Security FAQ](https://chromium.googlesource.com/chromium/src/+/lkcr/docs/security/faq.md)
+* [Chrome Browser for enterprise](https://enterprise.google.com/chrome/chrome-browser/)
