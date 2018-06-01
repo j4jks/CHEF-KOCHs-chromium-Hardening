@@ -183,7 +183,8 @@ Using scripts and updater tools can be dangerous when they suddenly starting to 
 
 Chrome is not more or less tracking anyone then all other Browsers on the market. Other Browser in fact imitates Google and their features such as [Chromecast](https://en.wikipedia.org/wiki/Chromecast) detection which is often misleading called as _background spying_ because it sends every 2 minutes requests in order to check if the service is available or not among other features such as [Captive portal](https://en.wikipedia.org/wiki/Captive_portal) checks. 
 
-Forks mostly only removing these functions which is not the best way, preventing or giving people a opt-out for certain things is the better method, you can read about how you do this (with examples) [here].
+Browser Forks mostly only removing integrated functions which is maybe the best way, preventing or giving people a opt-out for certain integrated features is definitely the better method, you can read about how you do this (with examples) [here](https://github.com/CHEF-KOCH/Chromium-hardening/blob/master/Configure%20Google%20Chrome%20via%20Group%20Policies.md).
+
 
 
 
