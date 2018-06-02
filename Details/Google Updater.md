@@ -1,0 +1,1 @@
+Basically the URL Tracker connects to three random sites. It does this to check your DNS configuration in order to tell whether your DNS tries to resolve error pages or if Chrome should. Nothing scary here and it’s handled in a very nice way.
