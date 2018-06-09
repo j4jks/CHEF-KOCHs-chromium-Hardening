@@ -47,6 +47,7 @@ Chromium 67+
 * #BundledConnectionHelp
 * enable-omnibox-voice-search-always-visible
 * #enable-viz-test-draw-quad
+* #enable-framebusting-needs-sameorigin-or-usergesture
 
 
 ### Enabled (changed)

@@ -11,4 +11,4 @@ Adjust all settings and advanced settings in chrome://settings:
 
 
 Optional:
-* Do not log in with a Google account btw who says Mozilla sync is more secure?!
+* Do not login with a Google account btw who says Mozilla sync is more secure?!

@@ -51,6 +51,7 @@ Enabled
 #pdf-isolation
 #ntp-ui-md
 #stop-in-background
+#enable-framebusting-needs-sameorigin-or-usergesture 
 
 
 Disabled
