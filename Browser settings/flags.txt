@@ -45,7 +45,7 @@ Enabled
 #clipboard-content-setting
 #enable-modern-media-controls
 #enable-av1-decoder
-#enable-mark-http-as				(will be removed in v70+) Mark HTTPS as actively dangerous.
+#enable-mark-http-as				(will be removed in v70+) Mark HTTP as actively dangerous.
 #unified-consent
 #enable-gpu-appcontainer
 #pdf-isolation
