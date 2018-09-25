@@ -1,4 +1,4 @@
-** Added in v65**
+**Added in v65**
 * AbusiveExperienceInterventionEnforce
 * DisablePluginFinder	AdsSettingForIntrusiveAdsSites
 * DeviceLoginScreenAutoSelectCertificateForUrls
