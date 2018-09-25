@@ -57,6 +57,7 @@ Enabled
 Disabled
 =======
 
+##account-consistency
 #disable-hyperlink-auditing
 #show-autofill-type-predictions
 #device-discovery-notifications
