@@ -1,0 +1,1 @@
+firejail --private --net=eth0 --dns=1.1.1.1 chromium 
